@@ -1,0 +1,17 @@
+#countries{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+}
+.country{
+margin: 10px;
+padding: 10px;
+border: 2px solid cadetblue;
+border-radius: 20px;
+text-align: center;
+background-color: rgba(223, 110, 133, 0.678);
+color: rgba(27, 3, 49, 0.788);
+}
+#country-details{
+   text-align: center;
+}
